@@ -3,25 +3,28 @@
 header {
     height: 122px;
     div {
-        max-width: 1200px;
-        & h2 {
-            margin-left: 120px;
-            font-weight: 700;
-            font-size: 34px;
-            color: #054C73;
-        }
-        ul {
-            gap: 70px;
-            .header-container {
-                margin-right: 120px;
+        div {
+
+            max-width: 1200px;
+            & h2 {
+                margin-left: 120px;
+                font-weight: 700;
+                font-size: 34px;
+                color: #054C73;
             }
-            li {
-                nav {
-                    a {
-                        font-weight: 600;
-                        font-size: 14px;
-                        text-decoration: none;
-                        color: black;
+            ul {
+                gap: 70px;
+                .header-container {
+                    margin-right: 120px;
+                }
+                li {
+                    nav {
+                        a {
+                            font-weight: 600;
+                            font-size: 14px;
+                            text-decoration: none;
+                            color: black;
+                        }
                     }
                 }
             }
@@ -69,7 +72,7 @@ header {
     box-sizing: border-box;
 }
 
-.herosec > div {
+.herosec > div > div {
     background-color: #DFE9F4;
     border-radius: 10px;
     width: min(644px, 100%);
@@ -80,14 +83,14 @@ header {
     margin-left: 768px;
 }
 
-.herosec > div span {
+.herosec > div > div span {
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 4px;
     line-height: 100%;
 }
 
-.herosec > div > h2 {
+.herosec > div > div > h2 {
     
 }
 
