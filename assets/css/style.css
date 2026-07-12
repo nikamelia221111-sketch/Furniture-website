@@ -115,6 +115,7 @@ header {
         display: flex;
         flex-direction: row;
         margin-left: 80px;
+
         div {
             display: flex;
             flex-direction: row;
@@ -137,7 +138,101 @@ header {
                     font-size: 16px;
                     line-height: 100%;
                 }
+
+                
             }
+        }
+    }
+}
+main {
+    margin-top: 60px;
+
+    section.Inspiration-Collection {
+        div {
+            h2 {
+                text-align: center;
+                font-weight: 700;
+                font-size: 32px;
+                font-family: 'Montserrat', sans-serif;
+            }
+
+            p {
+                margin-top: 20px;
+                text-align: center;
+                font-weight: 400;
+                font-size: 20px;
+                font-family: 'Montserrat', sans-serif;
+            }
+
+        }
+
+        .Inspiration-Collection-images {
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+
+            .image1 {
+                margin-top: 38px;
+            }
+
+            .image2 {
+                margin-bottom: 38px;
+            }
+
+            .image3 {
+                margin-top: 38px;
+            }
+        }
+    }
+
+    .Beautify-Your-Space {
+        align-items: center;
+        height: 874px;
+        display: flex;
+        justify-content: center;
+        background-color: #F2F5FF;
+
+        div.left {
+            align-items: center;
+            padding-left: 161px;
+
+            h2 {
+                font-weight: 700;
+                font-size: 32px;
+                font-family: 'Montserrat', sans-serif;
+            }
+
+            p {
+                margin-top: 20px;
+                margin-bottom: 30px;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 39px;
+                max-width: 514px;
+                font-family: 'Montserrat', sans-serif;
+            }
+
+            button {
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 100%;
+                background-color: #054C73;
+                width: 230px;
+                height: 70px;
+                border-radius: 50px;
+                border: none;
+                color: #FFFFFF;
+                cursor: pointer;
+                margin-top: 30px;
+            }
+        }
+
+        .right {
+
+            img {}
+
+            .deco {}
         }
     }
 }
