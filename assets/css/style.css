@@ -1,0 +1,16 @@
+header {
+    div {
+        & h2 {
+            font-weight: 700;
+            font-size: 34px;
+            color: #054C73;
+        }
+        ul {
+            li {
+                nav {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
