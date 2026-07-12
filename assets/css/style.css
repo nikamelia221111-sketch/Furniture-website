@@ -6,6 +6,7 @@ header {
         justify-content: space-between;
         align-items: center;
         height: 120px;
+        font-family: 'Montserrat', sans-serif;
 
         div {
             max-width: 1200px;
@@ -97,6 +98,46 @@ header {
             color: #FFFFFF;
             cursor: pointer;
             margin-top: 30px;
+        }
+    }
+}
+
+.headerinfo {
+    display: flex;
+    flex-direction: row;
+    background-color: #F2F5FF;
+    width: 100%;
+    height: 150px;
+    font-family: 'Montserrat', sans-serif;
+    gap: 124px;
+
+    div {
+        display: flex;
+        flex-direction: row;
+        margin-left: 80px;
+        div {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+
+            div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                p {
+                    font-size: 24px;
+                    font-weight: 600;
+                    line-height: 100%;
+                }
+
+                span {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 100%;
+                }
+            }
         }
     }
 }
