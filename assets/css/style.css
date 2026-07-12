@@ -1,43 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=IM+Fell+English+SC&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Rashi+Hebrew:wght@100..900&family=Noto+Sans+Georgian:wght@100..900&family=Noto+Serif+Georgian:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
-header h2 {
-    font-weight: 700;
-    font-size: 34px;
-    color: #054C73;
-}
-
-header nav a {
-    text-decoration: none;
-}
-
-.herosec {
-    width: 100%;
-    min-height: 749px;
-    background: url('../../Images/Herosecimage.svg') center/cover no-repeat;
-    display: flex;
-    align-items: center;
-    padding: 40px;
-    box-sizing: border-box;
-}
-
-.herosec > div {
-    background-color: #DFE9F4;
-    border-radius: 10px;
-    width: min(644px, 100%);
-    min-height: 444px;
-    font-family: 'Montserrat', sans-serif;
-    padding: 40px;
-    box-sizing: border-box;
-    margin-left: 768px;
-}
-
-.herosec > div span {
-    font-size: 16px;
-    font-weight: 600;
-    letter-spacing: 4px;
-    line-height: 100%;
-}
-
-.herosec > div > h2 {
-    
+header {
+    div {
+        & h2 {
+            font-weight: 700;
+            font-size: 34px;
+            color: #054C73;
+        }
+        ul {
+            li {
+                nav {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
 }
