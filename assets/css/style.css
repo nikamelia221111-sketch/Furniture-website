@@ -9,6 +9,7 @@ header {
         font-family: 'Montserrat', sans-serif;
 
         div {
+
             max-width: 1200px;
 
             h2 {
@@ -16,18 +17,20 @@ header {
                 font-size: 34px;
                 font-weight: 700;
                 color: #054C73;
+
             }
 
-            ul {
-                display: flex;
-                gap: 60px;
+            nav {
 
-                .margin-right {
-                    margin-right: 120px;
-                }
+                ul {
+                    display: flex;
+                    gap: 60px;
 
-                li {
-                    nav {
+                    .margin-right {
+                        margin-right: 120px;
+                    }
+
+                    li {
                         a {
                             font-weight: 600;
                             font-size: 14px;
@@ -37,10 +40,11 @@ header {
                     }
                 }
             }
-
         }
+
     }
 }
+
 
 .herosec {
     background: url('../../Images/Herosecimage.svg');
@@ -139,11 +143,12 @@ header {
                     line-height: 100%;
                 }
 
-                
+
             }
         }
     }
 }
+
 main {
     margin-top: 60px;
 
